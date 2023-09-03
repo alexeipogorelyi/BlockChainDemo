@@ -1,0 +1,80 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="325.003722608898" scrolly="163.36900928283833" scale="0.5525219446403183">
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="8kIza2M4c#rF?Z2h`:/," x="-50" y="90">
+      <field name="FIELDNAME">Cube</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="ciF|2e+vylM=i{[)R9f|" x="-22" y="279">
+      <field name="FIELDNAME">Cube</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="y_2*#C`O0~-fjtB2=_S," inline="false" x="-350" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+          <field name="FIELDNAME">Cube</field>
+        </shadow>
+        <block type="allObjectList" id="Pl+)}2yC?BF2yDrm9Hz."></block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="openAnnotation" id="7C0*8x@J[q.lb?Ew6)bb">
+          <value name="VALUE">
+            <shadow type="text" id="dS*RTfxr`l2M#Z9M;FFH">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="2Uj%N)FL1N_XO7Lf#E:W">
+              <field name="TEXT">BLYAT</field>
+            </block>
+          </value>
+          <next>
+            <block type="outline" id="/j#u#8:tNL(Ug1!v|xsw">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="allObjectList" id="+Duc@bZFVZ--{iD*Bevo"></block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="oW6{q2M/6l!/d5UHpfvJ">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="8[Vj:~d#i4+wJPN}[gk2"></block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="bloom" id="%uXh5qV-brCWW@/rA/o~">
+          <value name="THRESHOLD">
+            <shadow type="number_slider" id="QY?m?^(L@kZnI-qiNaWs">
+              <field name="NUM" min="0" max="10" step="0.1">10</field>
+            </shadow>
+          </value>
+          <value name="STRENGTH">
+            <shadow type="number_slider" id="tp-sCT6d)c8#itD9.QDW">
+              <field name="NUM" min="0" max="10" step="0.1">10</field>
+            </shadow>
+          </value>
+          <value name="RADIUS">
+            <shadow type="number_slider" id="Hd1$Wu`T~xJ4k?%ji4`r">
+              <field name="NUM" min="0" max="10" step="0.1">10</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="?{xW[v=+~_?|4l{x[z67" x="-20" y="322">
+      <field name="FIELDNAME">Cube</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="#ISYBX5+`Q2xh;.,7tMB" x="614" y="307"></block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="xabc#;r32O7}EnFNem:|" x="634" y="325"></block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="328" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

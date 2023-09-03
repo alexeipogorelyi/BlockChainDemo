@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<style type="text/css">
+#blockchain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	border: 0px;
+}
+.buttons {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: x-large;
+	font-weight: 400;
+	border-radius: 16px;
+	top: 50px;
+	left: 30px;
+	cursor: pointer;
+}
+	
+.buttons:hover {
+	color:#8b5195;
+} 
+
+#add{
+background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	}
+	
+#mine {
+top: 130px;
+background-image: linear-gradient(0deg, #30cfd0 0%, #330867 100%);
+	}
+	
+#edit{
+top: 210px;
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+	}
+	
+#add:active{
+	background-image: linear-gradient(0deg, #43e97b 0%, #38f9d7 100%);
+	}
+	
+#mine:active {
+	background-image: linear-gradient(0deg, #43e97b 0%, #38f9d7 100%);
+	}
+	
+#edit:active{
+	background-image: linear-gradient(0deg, #43e97b 0%, #38f9d7 100%);
+	}
+	
+
+
+ 
+
+</style>
+</head>
+
+<body>
+<iframe id="blockchain" src="blockchain.html"></iframe>
+<div class="buttons" id="add" >ADD</div>
+<div class="buttons" id="mine" >MINE</div>
+<div class="buttons" id="edit">EDIT</div>
+
+	
+</body>
+</html>

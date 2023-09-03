@@ -1,0 +1,715 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="151.0136252942267" scrolly="157.28399342035436" scale="0.4434503857873575">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="y_2*#C`O0~-fjtB2=_S," inline="false" x="-50" y="-270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+          <field name="FIELDNAME">Cube</field>
+        </shadow>
+        <block type="objectList" id="ciF|2e+vylM=i{[)R9f|">
+          <field name="FIELDNAME">Cube</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="/j#u#8:tNL(Ug1!v|xsw">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="8kIza2M4c#rF?Z2h`:/,">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="*QXC@@hx[tVO;B?FJOa#">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="YuWL=*|;AL;7b|N-2lzt">
+                  <field name="TEXT">1</field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="!f#Rnn2#-K+ANb.,g%h}">
+                  <field name="FIELDNAME">Cube</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="aW$/b?ucT6KVz?,mseG`">
+                  <field name="TEXT">КУБ</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="oCBUbRK1yjy0v(kwDIO=">
+                  <field name="TEXT">poi1</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="oW6{q2M/6l!/d5UHpfvJ">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="?{xW[v=+~_?|4l{x[z67">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="~yfFa8%STt^wuvdD=9Qi">
+              <value name="TARGET">
+                <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="RY7fucq=wY@l/70:[_+~">
+                  <field name="FIELDNAME">Cube</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="]Nb6MHOnd+6?#!V9_xcN" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+            <block type="objectList" id="$y4eIO?C:9em8C5Qkd~p">
+              <field name="FIELDNAME">Kryshka</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="JACTzW^2u]xnwO}_-g/W">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="47%K5A,3t4%i$KO~W{;I">
+                  <field name="FIELDNAME">Kryshka</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="sycB0}$AHZj|QW`=H.A|">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="./tB@:;Z(93h^qJ*mM-S">
+                  <field name="FIELDNAME">Kryshka</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenHovered" id="8/iG!b@@F;XAFyFNORUO" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+                <block type="objectList" id="I1fi:q^!.s~6,P*zNP7.">
+                  <field name="FIELDNAME">Cube1</field>
+                </block>
+              </value>
+              <statement name="DO_OVER">
+                <block type="outline" id="?TRfqzS@FE7J3acg1Qan">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="T2=+u]~^E^J0URn38s3G">
+                      <field name="FIELDNAME">Cube1</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id=";-|i=n:vZ8tNNPHQ0%i%">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="$M:nS(t].#5I^l,Tj`B|">
+                          <field name="TEXT">2</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id=";K_SWW{{F$b}ns846Sps">
+                          <field name="FIELDNAME">Cube1</field>
+                        </block>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="R-|$vcoUQ5-F1DyIVb_M">
+                          <field name="TEXT">КУБ</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="4w,?8)w2jzZ4ON;G,+H{">
+                          <field name="TEXT">poi1</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="DO_OUT">
+                <block type="outline" id="%l]+DHu/^_lPKw^K]tJm">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="`mr|vb2if|Z{e*@ndHQn">
+                      <field name="FIELDNAME">Cube1</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="removeAnnotation" id="bg4LfE1(U`x{Y~:9QiA`">
+                      <value name="TARGET">
+                        <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="KT|viW`}{hE$x#:XnG=x">
+                          <field name="FIELDNAME">Cube1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="whenHovered" id="Fl@A#Ypy%FV.15fm*^Z/" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                      <field name="FIELDNAME">Cube</field>
+                    </shadow>
+                    <block type="objectList" id="4e5`8#BQhy:}mere[zCt">
+                      <field name="FIELDNAME">Kryshka1</field>
+                    </block>
+                  </value>
+                  <statement name="DO_OVER">
+                    <block type="outline" id="#yMnGjP;u-ldmF0@30JW">
+                      <field name="DO_WHAT">ENABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="0W=hqQD?9Fa3id$pspU$">
+                          <field name="FIELDNAME">Kryshka1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <statement name="DO_OUT">
+                    <block type="outline" id="$e|rBuh)%6E)PW#M6k2-">
+                      <field name="DO_WHAT">DISABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="xX^$w[3vTT#=YeL;Cj7[">
+                          <field name="FIELDNAME">Kryshka1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenHovered" id="0e+|oQetn^7Y,!S/eo_u" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                        <block type="objectList" id="k3MBYQulZ2zr}siNWKQ{">
+                          <field name="FIELDNAME">Cube2</field>
+                        </block>
+                      </value>
+                      <statement name="DO_OVER">
+                        <block type="outline" id=",9:%)n2}#fmpSbzSy]xn">
+                          <field name="DO_WHAT">ENABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id=":7o)NdspqN$lmu?w!(|4">
+                              <field name="FIELDNAME">Cube2</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="addAnnotation" id="`aR/*ilAx_GMCX6e-/zS">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                              <value name="ANNOTATION">
+                                <shadow type="text" id="Q8,i1tM8w.gR$T=QjxP5">
+                                  <field name="TEXT">2</field>
+                                </shadow>
+                              </value>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="6zAZ4{_pj4Y(rD@/|8l,">
+                                  <field name="FIELDNAME">Cube2</field>
+                                </block>
+                              </value>
+                              <value name="CONTENTS">
+                                <shadow type="text" id="Vd^)S~el6Y,*Sjv5^3B3">
+                                  <field name="TEXT">КУБ</field>
+                                </shadow>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="D%b{pIPTb$-k*rDh6=KI">
+                                  <field name="TEXT">poi1</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <statement name="DO_OUT">
+                        <block type="outline" id="ymFM1Da.-,Gk#0!Nj*_s">
+                          <field name="DO_WHAT">DISABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="Hj57JLbBa6(7_/Syy,63">
+                              <field name="FIELDNAME">Cube2</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="removeAnnotation" id="[2IBzb0?zx{#0;{%CvXT">
+                              <value name="TARGET">
+                                <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="xgQ}4x98,[d2`~ksk%_e">
+                                  <field name="FIELDNAME">Cube2</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenHovered" id="wtnI8#bdZlMj}a-~FSNj" inline="false">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                              <field name="FIELDNAME">Cube</field>
+                            </shadow>
+                            <block type="objectList" id="9FtBGmhQAyg0[4%z#U!2">
+                              <field name="FIELDNAME">Kryshka2</field>
+                            </block>
+                          </value>
+                          <statement name="DO_OVER">
+                            <block type="outline" id="-0[#YTD5+drX_VSv},rV">
+                              <field name="DO_WHAT">ENABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="4a_CgS}4I~C3D0)}@[-`">
+                                  <field name="FIELDNAME">Kryshka2</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <statement name="DO_OUT">
+                            <block type="outline" id="h#Y:EN_W;Ji[2?^*pL-A">
+                              <field name="DO_WHAT">DISABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="8R)b%k2#@/z^3WGr1guZ">
+                                  <field name="FIELDNAME">Kryshka2</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenHovered" id="IgHt;{TKaEaHvvhC7A^3" inline="false">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                                  <field name="FIELDNAME">Cube</field>
+                                </shadow>
+                                <block type="objectList" id="{CAuRj@mMcL,29F$Mm0=">
+                                  <field name="FIELDNAME">Bitcoin</field>
+                                </block>
+                              </value>
+                              <statement name="DO_OVER">
+                                <block type="outline" id="rA*6_{u;`p!)TklCtR40">
+                                  <field name="DO_WHAT">ENABLE</field>
+                                  <value name="TARGET">
+                                    <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id="fKUVu}LQo|99n5+E2F#K">
+                                      <field name="FIELDNAME">Bitcoin</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="addAnnotation" id="4vRAJ+~?Dx`GaqKF1)QY">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                                      <value name="ANNOTATION">
+                                        <shadow type="text" id="F6ViJ,?)^K?(CZMv,,Y*">
+                                          <field name="TEXT">4</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="TARGET">
+                                        <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="7w$lrs+0B0qsC}#,Fg_6">
+                                          <field name="FIELDNAME">Bitcoin</field>
+                                        </block>
+                                      </value>
+                                      <value name="CONTENTS">
+                                        <shadow type="text" id="|gS?tb(l:[WacrZLRBZM">
+                                          <field name="TEXT">КУБ</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="ID">
+                                        <shadow type="text" id="2VFH_Tk]%l!XSQO:hNK#">
+                                          <field name="TEXT">poi1</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <statement name="DO_OUT">
+                                <block type="outline" id="|EB::}svokh`o!MPX6}F">
+                                  <field name="DO_WHAT">DISABLE</field>
+                                  <value name="TARGET">
+                                    <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id="i1]LY;,F1qb~xRx/fU}A">
+                                      <field name="FIELDNAME">Bitcoin</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="removeAnnotation" id="pwL${q*S/U(0aT]##^Ob">
+                                      <value name="TARGET">
+                                        <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="BEywJ./v6@4Lk7~M`[]x">
+                                          <field name="FIELDNAME">Bitcoin</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenHovered" id=")wN})GgIf@o.DF$kfG[z" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                                      <field name="FIELDNAME">Cube</field>
+                                    </shadow>
+                                    <block type="objectList" id="JokGEaB+kFCtG/y_0KUz">
+                                      <field name="FIELDNAME">ETHl</field>
+                                    </block>
+                                  </value>
+                                  <statement name="DO_OVER">
+                                    <block type="outline" id="xu]a=$D|^[-Qxe,^Ef#S">
+                                      <field name="DO_WHAT">ENABLE</field>
+                                      <value name="TARGET">
+                                        <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="QgcRUN}}?Y,)x[P//7=X">
+                                          <field name="FIELDNAME">ETHl</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="addAnnotation" id="u4pN$wm{(oSZtwHYB~Ma">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                                          <value name="ANNOTATION">
+                                            <shadow type="text" id="8*HLeo:E0]@dOI;6H!v1">
+                                              <field name="TEXT">4</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="objectList" id="xmDOnwB!b=g-6hoYy5pU">
+                                              <field name="FIELDNAME">ETHl</field>
+                                            </block>
+                                          </value>
+                                          <value name="CONTENTS">
+                                            <shadow type="text" id="ChN!Xi=ONq{E9pm=n8+o">
+                                              <field name="TEXT">КУБ</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="ID">
+                                            <shadow type="text" id=";61bsbyb(1X7}S)0qqr}">
+                                              <field name="TEXT">poi1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <statement name="DO_OUT">
+                                    <block type="outline" id="n_oKnNX%kT]lWjZCj.sP">
+                                      <field name="DO_WHAT">DISABLE</field>
+                                      <value name="TARGET">
+                                        <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="_n9W{D}P{^Ko0qrqeu+z">
+                                          <field name="FIELDNAME">ETHl</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="removeAnnotation" id="9.|N!IYDsWe{bHP:Hn`L">
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="objectList" id="J^t,i{pr7g~:nv4NmDv|">
+                                              <field name="FIELDNAME">ETHl</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenHovered" id="Ck=rB|%E[0HlFmd43whM" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                                          <field name="FIELDNAME">Cube</field>
+                                        </shadow>
+                                        <block type="objectList" id="TEg`qP.#XS+{.PHhx*#3">
+                                          <field name="FIELDNAME">HESH</field>
+                                        </block>
+                                      </value>
+                                      <statement name="DO_OVER">
+                                        <block type="outline" id="G97{:ltXlSU^5Pm]zR{v">
+                                          <field name="DO_WHAT">ENABLE</field>
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="objectList" id="`nI!@]f`G^9*tf,ULrpa">
+                                              <field name="FIELDNAME">HESH</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="addAnnotation" id="+Jz!5%j]OS~A[~sjvHbm">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                                              <value name="ANNOTATION">
+                                                <shadow type="text" id="gqeWH-f=NW=9{UY+1amX">
+                                                  <field name="TEXT">4</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="TARGET">
+                                                <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="9vKMjr),}rm0Jq^Z|r:#">
+                                                  <field name="FIELDNAME">HESH</field>
+                                                </block>
+                                              </value>
+                                              <value name="CONTENTS">
+                                                <shadow type="text" id="-u;j7i7oul?N/v+y]t:W">
+                                                  <field name="TEXT">КУБ</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="ID">
+                                                <shadow type="text" id="5gHf+5vpULgTt`Kc]Wgl">
+                                                  <field name="TEXT">poi1</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <statement name="DO_OUT">
+                                        <block type="outline" id="4ZxeUX[teNNH3seb1ve0">
+                                          <field name="DO_WHAT">DISABLE</field>
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="objectList" id="NM{8[jP46*3e?{ZIEH#/">
+                                              <field name="FIELDNAME">HESH</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="removeAnnotation" id="gYm/G!c~5p8E!TfYI2D_">
+                                              <value name="TARGET">
+                                                <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="`zsz2Az#/~;re.xU4|.^">
+                                                  <field name="FIELDNAME">HESH</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="whenHovered" id="$]iDc[!^BT?hRv=]~5x]" inline="false">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                                          <field name="X_RAY">FALSE</field>
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="NN]5]876+O4*S4P|$p}U">
+                                              <field name="FIELDNAME">Cube</field>
+                                            </shadow>
+                                            <block type="objectList" id="_6n_U|=5zWbW-P,vvsnd">
+                                              <field name="FIELDNAME">PrevHesh</field>
+                                            </block>
+                                          </value>
+                                          <statement name="DO_OVER">
+                                            <block type="outline" id="Nf.kfcL+RKEY^*5=z9DH">
+                                              <field name="DO_WHAT">ENABLE</field>
+                                              <value name="TARGET">
+                                                <shadow type="objectList" id="Ih?j0Z3p/uf^m,*R}t-.">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="Ykl}^yYt-)(u.;:u%SdE">
+                                                  <field name="FIELDNAME">PrevHesh</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="addAnnotation" id="MOF:zTSN-]1#CKQqzDH+">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                                                  <value name="ANNOTATION">
+                                                    <shadow type="text" id="MVv8*(fyyenKZe5|C]_+">
+                                                      <field name="TEXT">4</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="TARGET">
+                                                    <shadow type="objectList" id="|$6tqjBbqF|X89Mg~u-U">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="objectList" id="4nP{a][AzYREB/;MI7Z]">
+                                                      <field name="FIELDNAME">PrevHesh</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="CONTENTS">
+                                                    <shadow type="text" id="^MvJO,RR*4FO_sfT7HJD">
+                                                      <field name="TEXT">КУБ</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="ID">
+                                                    <shadow type="text" id="3lZ:^Qcn!vn:g)$IU1~.">
+                                                      <field name="TEXT">poi1</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                          <statement name="DO_OUT">
+                                            <block type="outline" id="FR@M/ozaHR%T84?.j[Ob">
+                                              <field name="DO_WHAT">DISABLE</field>
+                                              <value name="TARGET">
+                                                <shadow type="objectList" id="u6{fJ;PVUf3u$+8N6KwD">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="Hy@MY$3_GGR_!SKLW9-A">
+                                                  <field name="FIELDNAME">PrevHesh</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="removeAnnotation" id="r4{N!C[lC@i}wrRx)Bc(">
+                                                  <value name="TARGET">
+                                                    <shadow type="objectList" id=":A/TS4!wPmj#gj_)0$iA">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="objectList" id="LRUEeP*|.][M@]DtB{b^">
+                                                      <field name="FIELDNAME">PrevHesh</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="text" id="SK%*Rx=fSuUbm^G@S$/H" x="590" y="10">
+      <field name="TEXT">Hello, Verge!</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="dj-xCJxVSo*dMBbWSoJ[" inline="false" x="930" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="$#nN6+C`v7x,:4ONg7S}">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="J$!mMFu99c-yj~w;IM^E">
+          <field name="FIELDNAME">Kryshka</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="/ivol/5UR6nc9.zJ:33J">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="*BOF)12qPl/}#S7r84.R">
+              <field name="FIELDNAME">Kryshka</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="328" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
