@@ -116,15 +116,12 @@ grid-template-rows: min-content 1fr min-content;
 align-content: start;
 }
 
-.statja section  {
+.article section  {
     margin-left: 40px;
 }
 
-.site-wrapper {
-    background: var(--background);
-    width: 100%;
-    min-height: 100%;
-    margin: 0 auto
+.container {
+    margin: 0 auto;
 }
 
 .style-screen{
@@ -132,13 +129,16 @@ align-content: start;
     text-align: justify;
     position: relative;
     z-index: 1;
+    background: var(--background);
+    margin: 0 auto;
+    width: 100%;
 }
 
 
 .style-screen-background-cube {
     position: absolute;
     top: -170px;
-    max-width: 1520px;
+    max-width: 1500px;
     left: 50%;
     padding-top: 200px;
     transform: translateX(-50%);
@@ -219,10 +219,6 @@ align-content: start;
     max-width: 1270px;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 60px;
 }
 
@@ -246,7 +242,6 @@ align-content: start;
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
-
 
 .nowrap {
     white-space: nowrap;
@@ -285,14 +280,6 @@ align-content: start;
     filter: blur(90px);
 }
 
-.BlockChainDemo{
-    width: 50%;
-    height: 100%;
-    display: block;
-    text-align: center;
-    position: relative;
-    z-index:2;
-}
 
 .article-wrapper{
     z-index:2;
@@ -300,12 +287,15 @@ align-content: start;
     box-shadow: inset 0 1px 3px hsla(0,0%,100%,.26), inset 22px 12px 70px -9px rgba(56,41,96,.47);
     -webkit-backdrop-filter: blur(18.5px);
     backdrop-filter: blur(18.5px);
+
  }
 
 .article-grid {
     display: grid;
      grid-template-columns: 1000px auto;
      grid-template-rows: auto auto;
+     max-width: 1500px;
+     margin: 0 auto;
   }
 
 .paragraph,
@@ -409,17 +399,13 @@ padding-left: 30px;
 .section3,
 .section3-1,
 .section-app {
-    box-shadow: inset 0 1px 3px hsla(0,0%,100%,.26), inset 22px 12px 70px -9px rgba(56,41,96,.47);
-    -webkit-backdrop-filter: blur(18.5px);
-    backdrop-filter: blur(18.5px);
-    transition: all .1s linear;
     border-radius: 16px;
-    width: 1200px;
     max-height: auto;
     line-height: 1.5;
     font-size: 16px;
     background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-    margin: 40px auto 40px auto;
+    margin: 40px auto;
+    max-width: 1270px;
 }
 
 .section3-1 {
@@ -443,6 +429,8 @@ padding-left: 30px;
     display: grid;
      grid-template-columns: 1000px auto;
      grid-template-rows: auto auto;
+     max-width: 1500px;
+     margin: 0 auto;
 }
 
 .section3-3 h2{
